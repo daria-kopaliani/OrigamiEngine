@@ -33,7 +33,8 @@ typedef enum : NSInteger {
     ORGMEngineStateStopped,
     ORGMEngineStatePlaying,
     ORGMEngineStatePaused,
-    ORGMEngineStateError
+    ORGMEngineStateError,
+    ORGMEngineStateBuffering
 } ORGMEngineState;
 
 /**
