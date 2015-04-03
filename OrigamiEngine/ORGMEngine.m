@@ -171,11 +171,6 @@
     [self seekToTime:time withDataFlush:NO];
 }
 
-- (void)seekToTime:(double)time {
-    [_output seek:time];
-    [_input seek:time];
-}
-
 - (void)setNextUrl:(NSURL *)url withDataFlush:(BOOL)flush {
     if (!url) {
         [self stop];
